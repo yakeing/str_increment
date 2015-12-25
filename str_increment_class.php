@@ -41,7 +41,7 @@ class str_increment{
 						$IsDo = true;
 					}
 				}
-				array_push($NewArr, $NewAnStr);
+				$NewArr[] = $NewAnStr;
 			}
 		} while($IsDo);
 		$ObverseStr = implode('', $AnStr).implode('', array_reverse($NewArr));
