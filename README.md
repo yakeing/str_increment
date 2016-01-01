@@ -1,8 +1,11 @@
 # str_increment
 String Increment Class
 
-author [yakeing](http://weibo.com/yakeing) 
+author [yakeing](http://weibo.com/yakeing)
 
+[![get header](http://oauth.sinaapp.com/svg/image.svg?w=115_45_88_100_27&k=str%20increment&v=1.0)](https://github.com/yakeing/str_increment/tree/master/version1.0)
+
+[![get header](http://oauth.sinaapp.com/svg/image.svg?w=115_45_88_100_27&k=str%20increment&v=1.1)](https://github.com/yakeing/str_increment/tree/master/version1.1) Singleton pattern
 
 str_increment init / Set up
 ---
