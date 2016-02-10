@@ -7,9 +7,21 @@ author [yakeing](http://weibo.com/yakeing)
 
 [![get header](http://oauth.sinaapp.com/svg/image.svg?w=115_45_88_100_27&k=str%20increment&v=1.1)](https://github.com/yakeing/str_increment/tree/master/version1.1) Singleton pattern
 
+[![get header](http://oauth.sinaapp.com/svg/image.svg?w=115_45_88_100_27&k=str%20increment&v=2.0)](https://github.com/yakeing/str_increment/tree/master/version2.0)
+
 str_increment init / Set up
 ---
 
+As of 2.0
+~~~
+  $FinallyStr = '000';
+  $Type='string'; //[string / letter / Lowercase / Uppercase]
+  $FirstRandomCode=false;
+  echo str_increment::NewStr($FinallyStr, $Type, $FirstRandomCode);
+  //return 001
+~~~
+
+As of 1.2
 - $NumberTable = false
 
 ~~~
