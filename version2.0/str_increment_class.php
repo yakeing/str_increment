@@ -52,6 +52,9 @@ class str_increment{
 					$strlen = strlen('a'.$FinallyStr);
 					--$strlen;
 					++$FinallyStr;
+					if($strlen != strlen($FinallyStr)){
+						return str_pad('a', $strlen, '0', STR_PAD_LEFT);
+					}
 					return str_pad($FinallyStr, $strlen, '0', STR_PAD_LEFT);
 				}
 				$Number = true;
