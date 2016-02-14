@@ -2,70 +2,69 @@
 /**
   * String Increment Class
   * @author http://weibo.com/yakeing
-  * @version 2.0
+  * @version 2.1
   * str_increment::NewStr(string, options, boolean)
  */
 class str_increment{
 	public $Table = array();
 	private $TableCount = 0;
-	private function __construct(){}
-	private function __clone(){}
 
 	/**
 	 * 递增字符
 	 * @param string  $FinallyStr 输入字符
-	 * @param options $Type 类型 [默认字符串/ letter 字母 / Lowercase 小字母 / Uppercase 大字母]
+	 * @param options $Type 类型 [默认全部 \ alpha 纯字母 / lower 小字母 / upper 大字母]
 	  * @param boolean $FirstRandomCode 首个随机码
 	*/
-	public static function NewStr($FinallyStr, $Type='string', $FirstRandomCode=false){
+	public static function NewStr($FinallyStr, $Type='all', $FirstRandomCode=false){
 		static $instance = null;
 		$Number = false;
-		$Lowercase = false;
-		$Uppercase = false;
+		$lower = false;
+		$upper = false;
 		if(is_null($instance)){
 			$instance = new self();
 		}
 		switch($Type){
-			case 'letter'://忽略大小写(i)
-				if(preg_match( '/[^a-z]+/i', $FinallyStr)){
+			case 'alpha':
+				if(!ctype_alpha($FinallyStr)){
 					return false;
 				}
-				$Lowercase = true;
-				$Uppercase = true;
+				$lower = true;
+				$upper = true;
 				break;
-			case 'Lowercase':
-				if(preg_match('/[^a-z]+/', $FinallyStr)){
+			case 'lower':
+				if(!ctype_lower($FinallyStr)){
 					return false;
 				}
-				$Lowercase = true;
+				$lower = true;
 				break;
-			case 'Uppercase':
-				if(preg_match( '/[^A-Z]+/', $FinallyStr)){
+			case 'upper':
+				if(ctype_upper($FinallyStr)){
 					return false;
 				}
-				$Uppercase = true;
+				$upper = true;
 				break;
 			default:
-				if(preg_match('/[^a-z0-9]/i', $FinallyStr)){
+				if(!ctype_alnum($FinallyStr)){
 					return false;
-				}else if(preg_match('/[1-9]\d*/', $FinallyStr)){
+				}else if(ctype_digit($FinallyStr)){
 					$strlen = strlen('a'.$FinallyStr);
 					--$strlen;
-					++$FinallyStr;
-					if($strlen != strlen($FinallyStr)){
-						return str_pad('a', $strlen, '0', STR_PAD_LEFT);
+					$digit = intval($FinallyStr);
+					++$digit;
+					if($strlen == strlen($digit)){
+						return $digit;
 					}
-					return str_pad($FinallyStr, $strlen, '0', STR_PAD_LEFT);
+					return str_pad($digit, $strlen, '0', STR_PAD_LEFT);
 				}
 				$Number = true;
-				$Lowercase = true;
-				$Uppercase = true;
+				$lower = true;
+				$upper = true;
 				break;
 		}
 		if(!$StrLength = strlen($FinallyStr)){
 			return false;
 		}
-		$instance->Table = $instance->CapacityTable($Number, $Lowercase, $Uppercase);
+		$instance->Table = $instance->CapacityTable($Number, $lower, $upper);
 		$instance->TableCount = count($instance->Table)-1;
 
 		$i = 0;
@@ -104,15 +103,15 @@ class str_increment{
 	}
 
 	//字符表
-	private function CapacityTable($Number, $Lowercase, $Uppercase){
+	private function CapacityTable($Number, $lower, $upper){
 		$arr = array();
 		if($Number){
 			$arr = array_merge($arr, array('0','1','2','3','4','5','6','7','8','9'));
 		}
-		if($Lowercase){
+		if($lower){
 			$arr = array_merge($arr, array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'));
 		}
-		if($Uppercase){
+		if($upper){
 			$arr = array_merge($arr, array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'));
 		}
 		return $arr;
