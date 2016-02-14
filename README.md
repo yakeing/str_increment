@@ -15,7 +15,7 @@ str_increment init / Set up
 As of 2.0
 ~~~
   $FinallyStr = '000';
-  $Type='string'; //[string / letter / Lowercase / Uppercase]
+  $Type='string'; //[string / alpha / lower / upper ]
   $FirstRandomCode=false;
   echo str_increment::NewStr($FinallyStr, $Type, $FirstRandomCode);
   //return 001
