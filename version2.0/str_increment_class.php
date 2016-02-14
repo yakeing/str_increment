@@ -38,7 +38,7 @@ class str_increment{
 				$lower = true;
 				break;
 			case 'upper':
-				if(ctype_upper($FinallyStr)){
+				if(!ctype_upper($FinallyStr)){
 					return false;
 				}
 				$upper = true;
