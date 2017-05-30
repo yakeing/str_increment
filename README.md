@@ -1,13 +1,18 @@
 # str_increment
+
 String Increment Class
 
 author [yakeing](http://weibo.com/yakeing)
 
-[![get header](http://oauth.sinaapp.com/svg/image.svg?w=115_45_88_100_27&k=str%20increment&v=1.0)](https://github.com/yakeing/str_increment/tree/master/version1.0)
+[![image](https://oauth.sinaapp.com/svg/4D4D4D/License/F66000/MPL2.0/image.svg)](https://github.com/yakeing/fsockopen/blob/master/LICENSE)
 
-[![get header](http://oauth.sinaapp.com/svg/image.svg?w=115_45_88_100_27&k=str%20increment&v=1.1)](https://github.com/yakeing/str_increment/tree/master/version1.1) Singleton pattern
+[![image](https://oauth.sinaapp.com/svg/4D4D4D/Language/007EC6/PHP/image.svg)](https://github.com/yakeing/str_increment)
 
-[![get header](http://oauth.sinaapp.com/svg/image.svg?w=115_45_88_100_27&k=str%20increment&v=2.0)](https://github.com/yakeing/str_increment/tree/master/version2.0)
+[![get header](https://oauth.sinaapp.com/svg/4D4D4D/Version/97CA00/1.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
+
+[![get header](https://oauth.sinaapp.com/svg/4D4D4D/Version/97CA00/1.1/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1) Singleton pattern
+
+[![get header](https://oauth.sinaapp.com/svg/4D4D4D/Version/97CA00/2.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
 
 str_increment init / Set up
 ---
