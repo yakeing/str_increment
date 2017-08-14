@@ -2,77 +2,88 @@
 
 String Increment Class
 
-author [yakeing](http://weibo.com/yakeing)
+#### Github
 
-[![image](https://oauth.applinzi.com/SvgLabel/4D4D4D/License/F66000/MPL2.0/image.svg)](https://github.com/yakeing/fsockopen/blob/master/LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/yakeing/str_increment/total.svg)](https://github.com/yakeing/str_increment)
+[![tag](https://img.shields.io/github/tag/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment)
+[![Language](https://oauth.applinzi.com/SvgLabel/4D4D4D/Language/F66000/PHP/image.svg)](https://github.com/yakeing/str_increment)
+[![License](https://oauth.applinzi.com/SvgLabel/4D4D4D/License/007EC6/MPL-2.0/image.svg)](https://github.com/yakeing/str_increment)
 
-[![image](https://oauth.applinzi.com/SvgLabel/4D4D4D/Language/007EC6/PHP/image.svg)](https://github.com/yakeing/str_increment)
+#### Version
 
-[![get header](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/97CA00/1.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
+[![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/1.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.0/str_increment_class.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
 
-[![get header](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/97CA00/1.1/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1) Singleton pattern
+[![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/1.1/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.1/str_increment_class.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
+Singleton pattern
 
-[![get header](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/97CA00/2.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
+[![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/2.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/version2.0/str_increment_class.php.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
+
+BY: [yakeing](http://weibo.com/yakeing)
 
 str_increment init / Set up
 ---
 
-As of 2.0
-~~~
+#### As of 2.0
+```php
   $FinallyStr = '000';
   $Type='string'; //[string / alpha / lower / upper ]
   $FirstRandomCode=false;
   echo str_increment::NewStr($FinallyStr, $Type, $FirstRandomCode);
   //return 001
-~~~
+```
 
-As of 1.2
+#### As of 1.2
+
 - $NumberTable = false
 
-~~~
+```php
   ABC ==> ABD
   QAbc ==> QAbd
   WSazZ ==> WSbAa
-~~~
+```
 
 - $LowercaseTable = false
 
-~~~
+```php
   123 ==> 124
   Y12A ==> Y12B
   GEA9Z ==> GEAA0
-~~~
+```
 
 - $UppercaseTable = false
 
-~~~
+```php
   89z ==> 8a0
   y09zz ==> y0a00
   ctvr9 ==> ctvra
-~~~
+```
 
 - $FirstRandomCode = true
 
-~~~
+```php
   H9990 ==> C9991
   HC99zz ==> 0C99AA
   H0H9H9C ==> 80H9H9D
   .....
-~~~
+```
 
-str_increment use
----
+- str_increment use
 
-> str_increment::NewStr(string)
-
+```php
+  str_increment::NewStr(string)
+```
 str_increment usage scenario
----
+
 
 - [x] URL
-~~~
+```
   https://github.com/fTg5A
+  
   https://github.com/0EaG7
-~~~
+```
 
 - [x] USER ID
 <table>
@@ -87,11 +98,17 @@ Donate
 ---
 Your donation makes CODE better.
 
- WeChat (微信)
- 
+ Bitcoin (比特币赞助)
+
+ 1Ff2hTfr4EioWv2ZDLKTedUiF9wBBVYSbU
+
+ ![Bitcoin](https://oauth.applinzi.com/QR/230/bitcoin%3a1Ff2hTfr4EioWv2ZDLKTedUiF9wBBVYSbU/Bitcoin.png)
+
+ WeChat (微信赞助)
+
  ![WeChat](https://oauth.applinzi.com/QR/230/wxp%3a%7C%7Cf2f0SOGAUjQ1ALzigoyN7nW8tK68D2oeU3YO/WeChat.png)
 
- Alipay (支付宝)
+ Alipay (支付宝赞助)
 
  ![Alipay](https://oauth.applinzi.com/QR/230/HTTPS%3a%7C%7CQR.ALIPAY.COM%7CTSX082709YGHVXYUQCWKD6/Alipay.png)
- 
+
