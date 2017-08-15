@@ -1,6 +1,6 @@
 # str_increment
 ---
-String Increment Class
+This is string increment class that can be used extensively for uppercase or lowercase letters as well as for various hexadecimal characters
 
 
 #### Travis CI
