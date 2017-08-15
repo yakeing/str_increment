@@ -34,7 +34,19 @@ String Increment Class
 
 BY: [yakeing](http://weibo.com/yakeing)
 
-str_increment init / Set up
+
+### Installation
+
+Use [Composer](https://getcomposer.org) to install the library.
+
+```
+
+    $ composer require yakeing/str_increment
+
+```
+
+
+### str_increment init / Set up
 ---
 
 #### 16Hex ( Must be lowercase )
