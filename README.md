@@ -15,11 +15,12 @@ String Increment Class
 #### Github
 
 [![Downloads](https://img.shields.io/github/downloads/yakeing/str_increment/total.svg)](https://github.com/yakeing/str_increment)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/src/str_increment/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/src/str_increment)
 [![tag](https://img.shields.io/github/tag/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment)
 [![Language](https://oauth.applinzi.com/SvgLabel/4D4D4D/Language/F66000/PHP/image.svg)](https://github.com/yakeing/str_increment)
 [![License](https://oauth.applinzi.com/SvgLabel/4D4D4D/License/007EC6/MPL-2.0/image.svg)](https://github.com/yakeing/str_increment)
 
-#### Version
+#### Old Version
 
 [![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/1.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
@@ -30,9 +31,6 @@ String Increment Class
 
 [![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/2.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version2.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
-
-[![Version](https://img.shields.io/github/release/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment/tree/master/src/str_increment)
-[![Size](https://img.shields.io/github/size/yakeing/str_increment/src/str_increment/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/src/str_increment) ` NEW `
 
 BY: [yakeing](http://weibo.com/yakeing)
 
