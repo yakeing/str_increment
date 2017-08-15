@@ -10,7 +10,7 @@ class StrIncrement{
 	/**
 	 * Increment string
 	 * @param string  $string [ Raw string ]
-	 * @param options $Hex [ letters ] alphabetic character / [ lowercase ] lowercase character / [ capital ] capital character / [16] hxe / [10]
+	 * @param options $Hex [ letters ] alphabetic character / [ lowercase ] lLower case letters / [ uppercase ] uppercase letter / [16] hxe / [10]
 	*/
 	public static function NewStr($string, $Hex=62){
 		if(!ctype_alnum($string) && !is_int($string)) return false;
@@ -29,7 +29,7 @@ class StrIncrement{
 				$start = 10;
 				$length = 26;
 			break;
-			case 'capital':
+			case 'uppercase':
 				if(!ctype_upper($string)) return false;
 				$start = 36;
 				$length = 26;

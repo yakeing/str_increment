@@ -34,9 +34,9 @@ class str_incrementTest extends TestCase{
     $this->assertEquals('zxd', $ret);
   }
 
-  public function testCapital(){
+  public function testUppercase(){
     $str = 'ABZ';
-    $ret = StrIncrement::NewStr($str, 'capital');
+    $ret = StrIncrement::NewStr($str, 'uppercase');
     $this->assertEquals('ACA', $ret);
   }
 }

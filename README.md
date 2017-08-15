@@ -64,17 +64,17 @@ str_increment init / Set up
     var_dump('ABAa' == $ret);
 ```
 
-#### lowercase character
+#### Lower case letters
 ```php
     $str = 'zxc';
     $ret = StrIncrement::NewStr($str, 'lowercase');
     var_dump('zxd' == $ret);
 ```
 
-#### capital character
+#### uppercase letter
 ```php
     $str = 'ABZ';
-    $ret = StrIncrement::NewStr($str, 'capital');
+    $ret = StrIncrement::NewStr($str, 'uppercase');
     var_dump('ACA' == $ret);
 ```
 
