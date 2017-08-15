@@ -5,7 +5,7 @@
   * @version 3.0
   * StrIncrement::NewStr(string, Hex)
  */
-namespace str_lncrement;
+namespace str_increment;
 class StrIncrement{
 	/**
 	 * Increment string

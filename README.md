@@ -26,70 +26,61 @@ String Increment Class
 
 [![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/1.1/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.1/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
-Singleton pattern
+` Singleton pattern `
 
 [![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/2.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version2.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
 
-[![Version](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/yakeing/tree/master/src/str_increment)
-[![Size](https://img.shields.io/github/size/yakeing/src/str_increment/StrIncrement.php.svg)](https://github.com/yakeing/tree/master/src/str_increment) ` NEW `
+[![Version](https://img.shields.io/github/yakeing/src/str_increment.svg)](https://github.com/yakeing/str_increment/tree/master/src/str_increment)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/src/str_increment/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/src/str_increment) ` NEW `
 
 BY: [yakeing](http://weibo.com/yakeing)
 
 str_increment init / Set up
 ---
 
-#### As of 2.0
+#### 16Hex ( Must be lowercase )
 ```php
-  $FinallyStr = '000';
-  $Type='string'; //[string / alpha / lower / upper ]
-  $FirstRandomCode=false;
-  echo str_increment::NewStr($FinallyStr, $Type, $FirstRandomCode);
-  //return 001
+    $str = '0fff';
+    $ret = StrIncrement::NewStr($str, 16);
+    var_dump('1000' == $ret);
 ```
 
-#### As of 1.2
-
-- $NumberTable = false
-
+#### 10Hex ( Decimalist )
 ```php
-  ABC ==> ABD
-  QAbc ==> QAbd
-  WSazZ ==> WSbAa
+    //string
+    $str = '1999';
+    $ret = StrIncrement::NewStr($str, 10);
+    var_dump('2000' == $ret);
+
+      //integer
+    $int = 100;
+    $ret = StrIncrement::NewStr($int, 10);
+    var_dump('101' == $ret);
 ```
 
-- $LowercaseTable = false
-
+#### Letters
 ```php
-  123 ==> 124
-  Y12A ==> Y12B
-  GEA9Z ==> GEAA0
+    $str = 'ABzZ';
+    $ret = StrIncrement::NewStr($str, 'letters');
+    var_dump('ABAa' == $ret);
 ```
 
-- $UppercaseTable = false
-
+#### Lowercase
 ```php
-  89z ==> 8a0
-  y09zz ==> y0a00
-  ctvr9 ==> ctvra
+    $str = 'zxc';
+    $ret = StrIncrement::NewStr($str, 'lowercase');
+    var_dump('zxd' == $ret);
 ```
 
-- $FirstRandomCode = true
-
+#### Capital
 ```php
-  H9990 ==> C9991
-  HC99zz ==> 0C99AA
-  H0H9H9C ==> 80H9H9D
-  .....
+    $str = 'ABZ';
+    $ret = StrIncrement::NewStr($str, 'capital');
+    var_dump('ACA' == $ret);
 ```
 
-- str_increment use
-
-```php
-  str_increment::NewStr(string)
-```
-str_increment usage scenario
-
+#### str_increment usage scenario
 
 - [x] URL
 ```
@@ -105,7 +96,6 @@ str_increment usage scenario
     <tr><td>Kim</td><td>fWd0fJ</td></tr>
     <tr><td>Mary</td><td>F8qWc5</td></tr>
 </table>
-
 
 Donate
 ---
