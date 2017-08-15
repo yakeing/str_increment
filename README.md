@@ -1,6 +1,16 @@
 # str_increment
-
+---
 String Increment Class
+
+
+#### Travis CI
+
+[![Travis-ci](https://api.travis-ci.org/yakeing/str_increment.svg)](https://travis-ci.org/yakeing/str_increment)
+
+#### Packagist
+
+[![Version](http://img.shields.io/packagist/v/yakeing/str_increment.svg)](https://packagist.org/packages/yakeing/str_increment)
+[![Downloads](http://img.shields.io/packagist/dt/yakeing/str_increment.svg)](https://packagist.org/packages/yakeing/str_increment)
 
 #### Github
 
@@ -12,14 +22,17 @@ String Increment Class
 #### Version
 
 [![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/1.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
-[![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.0/str_increment_class.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
 
 [![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/1.1/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
-[![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.1/str_increment_class.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.1/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
 Singleton pattern
 
 [![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/2.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
-[![Size](https://img.shields.io/github/size/yakeing/str_increment/version2.0/str_increment_class.php.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/version2.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
+
+[![Version](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/yakeing/tree/master/src/str_increment)
+[![Size](https://img.shields.io/github/size/yakeing/src/str_increment/StrIncrement.php.svg)](https://github.com/yakeing/tree/master/src/str_increment) ` NEW `
 
 BY: [yakeing](http://weibo.com/yakeing)
 
@@ -81,7 +94,7 @@ str_increment usage scenario
 - [x] URL
 ```
   https://github.com/fTg5A
-  
+
   https://github.com/0EaG7
 ```
 

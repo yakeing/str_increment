@@ -8,7 +8,6 @@
 class str_increment{
 	public $Table = array();
 	private $TableCount = 0;
-
 	/**
 	 * 递增字符
 	 * @param string  $FinallyStr 输入字符
@@ -66,7 +65,6 @@ class str_increment{
 		}
 		$instance->Table = $instance->CapacityTable($Number, $lower, $upper);
 		$instance->TableCount = count($instance->Table)-1;
-
 		$i = 0;
 		$NewArr = array();
 		$AnStr = str_split($FinallyStr);
@@ -84,7 +82,6 @@ class str_increment{
 		}
 		return ($StrLength == strlen($ObverseStr)) ? $ObverseStr : false;
 	}
-
 	//递增
 	private function Calculation($str){
 		$StrIndex = array_search($str, $this->Table);
@@ -95,13 +92,11 @@ class str_increment{
 			return $this->Table[$NewIndex];
 		}
 	}
-
 	//随机码
 	private function ReplaceFirstCode($str){
 		$Index = mt_rand(0, $this->TableCount);
 		return substr_replace($str, $this->Table[$Index], 0, 1);
 	}
-
 	//字符表
 	private function CapacityTable($Number, $lower, $upper){
 		$arr = array();

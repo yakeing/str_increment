@@ -2,22 +2,24 @@
 /**
   * String Increment Class
   * @author http://weibo.com/yakeing
-  * @version 1.0
-  *
-  * str_increment::NewStr(string)
+  * @version 1.1
+  * Singleton pattern
+  * StrIncrement::NewStr(string)
  */
-class str_increment{
+class StrIncrement{
 	public $Table = array();
 	private $TableCount = 0;
 	private $NumberTable = true;
 	private $LowercaseTable = true;
 	private $UppercaseTable = true;
-	private static $FirstRandomCode = true;
+	private $FirstRandomCode = true;
+	private static $_instance = NULL;
 
-	function __construct(){
+	private function __construct(){
 		$this->Table = $this->CapacityTable();
 		$this->TableCount = count($this->Table)-1;
 	}
+	private function  __clone(){}
 
 	public static function NewStr($FinallyStr){
 		if(preg_match('/[^a-z0-9]/i', $FinallyStr)){
@@ -30,13 +32,15 @@ class str_increment{
 		$NewArr = array();
 		$i = 0;
 		$AnStr = str_split($FinallyStr);
-		$obj = new str_increment(); //instantiation self
+		if (!self::$_instance instanceof self){
+			self::$_instance = new self();
+		}
 		do {
-			$NewAnStr = $obj->Calculation(array_pop($AnStr));
+			$NewAnStr = self::$_instance->Calculation(array_pop($AnStr));
 			++$i;
 			$IsDo = false;
 			if ($NewAnStr !== false) {
-				if($NewAnStr === $obj->Table[0]){
+				if($NewAnStr === self::$_instance->Table[0]){
 					if($i < $StrLength){
 						$IsDo = true;
 					}
@@ -45,8 +49,8 @@ class str_increment{
 			}
 		} while($IsDo);
 		$ObverseStr = implode('', $AnStr).implode('', array_reverse($NewArr));
-		if(self::$FirstRandomCode){
-			$ObverseStr = $obj->ReplaceFirstCode($ObverseStr);
+		if(self::$_instance->FirstRandomCode){
+			$ObverseStr = self::$_instance->ReplaceFirstCode($ObverseStr);
 		}
 		return ($StrLength == strlen($ObverseStr)) ? $ObverseStr : false;
 	}
