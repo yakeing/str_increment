@@ -57,21 +57,21 @@ str_increment init / Set up
     var_dump('101' == $ret);
 ```
 
-#### Letters
+#### alphabetic character
 ```php
     $str = 'ABzZ';
     $ret = StrIncrement::NewStr($str, 'letters');
     var_dump('ABAa' == $ret);
 ```
 
-#### Lowercase
+#### lowercase character
 ```php
     $str = 'zxc';
     $ret = StrIncrement::NewStr($str, 'lowercase');
     var_dump('zxd' == $ret);
 ```
 
-#### Capital
+#### capital character
 ```php
     $str = 'ABZ';
     $ret = StrIncrement::NewStr($str, 'capital');
