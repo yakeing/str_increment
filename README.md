@@ -31,7 +31,7 @@ String Increment Class
 [![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/2.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version2.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
 
-[![Version](https://img.shields.io/github/yakeing/src/str_increment.svg)](https://github.com/yakeing/str_increment/tree/master/src/str_increment)
+[![Version](https://img.shields.io/github/release/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment/tree/master/src/str_increment)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/src/str_increment/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/src/str_increment) ` NEW `
 
 BY: [yakeing](http://weibo.com/yakeing)
