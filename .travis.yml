@@ -14,3 +14,10 @@ before_install:
   - cd tests
 
 script: phpunit -v
+  - cd ../
+##  - git init
+  - git config --global user.name "yakeing"
+  - git config --global user.email "yakeing@gmail.com"
+  - git tag v3.0
+  - git show v3.0
+  - git push --force --quiet "https://${TOKEN}@github.com/yakeing/str_increment.git" master:master
