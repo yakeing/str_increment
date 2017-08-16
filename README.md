@@ -1,18 +1,18 @@
 # str_increment
----
+
 This is string increment class that can be used extensively for uppercase or lowercase letters as well as for various hexadecimal characters
 
 
-#### Travis CI
+### Travis CI
 
 [![Travis-ci](https://api.travis-ci.org/yakeing/str_increment.svg)](https://travis-ci.org/yakeing/str_increment)
 
-#### Packagist
+### Packagist
 
 [![Version](http://img.shields.io/packagist/v/yakeing/str_increment.svg)](https://packagist.org/packages/yakeing/str_increment)
 [![Downloads](http://img.shields.io/packagist/dt/yakeing/str_increment.svg)](https://packagist.org/packages/yakeing/str_increment)
 
-#### Github
+### Github
 
 [![Downloads](https://img.shields.io/github/downloads/yakeing/str_increment/total.svg)](https://github.com/yakeing/str_increment)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/src/str_increment/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/src/str_increment)
@@ -20,7 +20,7 @@ This is string increment class that can be used extensively for uppercase or low
 [![Language](https://oauth.applinzi.com/SvgLabel/4D4D4D/Language/F66000/PHP/image.svg)](https://github.com/yakeing/str_increment)
 [![License](https://oauth.applinzi.com/SvgLabel/4D4D4D/License/007EC6/MPL-2.0/image.svg)](https://github.com/yakeing/str_increment)
 
-#### Old Version
+### Old Version
 
 [![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/1.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
@@ -46,17 +46,17 @@ Use [Composer](https://getcomposer.org) to install the library.
 ```
 
 
-### str_increment init / Set up
+str_increment init / Set up
 ---
 
-#### 16Hex ( Must be lowercase )
+### 16Hex ( Must be lowercase )
 ```php
     $str = '0fff';
     $ret = StrIncrement::NewStr($str, 16);
     var_dump('1000' == $ret);
 ```
 
-#### 10Hex ( Decimalist )
+### 10Hex ( Decimalist )
 ```php
     //string
     $str = '1999';
@@ -69,28 +69,28 @@ Use [Composer](https://getcomposer.org) to install the library.
     var_dump('101' == $ret);
 ```
 
-#### alphabetic character
+### alphabetic character
 ```php
     $str = 'ABzZ';
     $ret = StrIncrement::NewStr($str, 'letters');
     var_dump('ABAa' == $ret);
 ```
 
-#### Lower case letters
+### Lower case letters
 ```php
     $str = 'zxc';
     $ret = StrIncrement::NewStr($str, 'lowercase');
     var_dump('zxd' == $ret);
 ```
 
-#### uppercase letter
+### uppercase letter
 ```php
     $str = 'ABZ';
     $ret = StrIncrement::NewStr($str, 'uppercase');
     var_dump('ACA' == $ret);
 ```
 
-#### str_increment usage scenario
+### str_increment usage scenario
 
 - [x] URL
 ```
