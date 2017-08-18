@@ -22,14 +22,14 @@ This is string increment class that can be used extensively for uppercase or low
 
 ### Old Version
 
-[![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/1.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
+[![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/1.0.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
 
-[![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/1.1/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
+[![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/1.1.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.1/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
 ` Singleton pattern `
 
-[![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/2.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
+[![Version](https://oauth.applinzi.com/SvgLabel/4D4D4D/Version/007ec6/2.0.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version2.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
 
 BY: [yakeing](http://weibo.com/yakeing)
