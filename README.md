@@ -17,19 +17,19 @@ This is string increment class that can be used extensively for uppercase or low
 [![Downloads](https://img.shields.io/github/downloads/yakeing/str_increment/total.svg)](https://github.com/yakeing/str_increment)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/src/str_increment/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/src/str_increment)
 [![tag](https://img.shields.io/github/tag/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment)
-[![Language](https://api.apptb.com/Badge/4D4D4D/Language/F66000/PHP/image.svg)](https://github.com/yakeing/str_increment)
-[![License](https://api.apptb.com/Badge/4D4D4D/License/007EC6/MPL-2.0/image.svg)](https://github.com/yakeing/str_increment)
+[![Language](https://img.shields.io/github/license/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment)
+[![Language](https://img.shields.io/github/languages/top/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment)
 
 ### Old Version
 
-[![Version](https://api.apptb.com/SvgLabel/4D4D4D/Version/007ec6/1.0.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
+[![Version](https://img.shields.io/badge/Version-1.0.0-yellow.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
 
-[![Version](https://api.apptb.com/SvgLabel/4D4D4D/Version/007ec6/1.1.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
+[![Version](https://img.shields.io/badge/Version-1.1.0-yellow.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.1/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
 ` Singleton pattern `
 
-[![Version](https://api.apptb.com/SvgLabel/4D4D4D/Version/007ec6/2.0.0/image.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
+[![Version](https://img.shields.io/badge/Version-2.0.0-yellow.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version2.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
 
 BY: [yakeing](http://weibo.com/yakeing)
@@ -115,13 +115,13 @@ Your donation makes CODE better.
 
  1Ff2hTfr4EioWv2ZDLKTedUiF9wBBVYSbU
 
- ![Bitcoin](https://api.apptb.com/QR/230/bitcoin%3a1Ff2hTfr4EioWv2ZDLKTedUiF9wBBVYSbU/Bitcoin.png)
+ ![Bitcoin](https://app208.applinzi.com/QR/230/bitcoin%3a1Ff2hTfr4EioWv2ZDLKTedUiF9wBBVYSbU/Bitcoin.png)
 
  WeChat (微信赞助)
 
- ![WeChat](https://api.apptb.com/QR/230/https%3a%7C%7Cpayapp.weixin.qq.com%7Cqr%7CAQFjACEumLq80lLV2aIgLwjh*t%3dCwAK%25wechat_pay/WeChat.png)
+ ![WeChat](https://app208.applinzi.com/QR/230/https%3a%7C%7Cpayapp.weixin.qq.com%7Cqr%7CAQFjACEumLq80lLV2aIgLwjh*t%3dCwAK%25wechat_pay/WeChat.png)
 
  Alipay (支付宝赞助)
 
- ![Alipay](https://api.apptb.com/QR/230/HTTPS%3a%7C%7CQR.ALIPAY.COM%7CTSX082709YGHVXYUQCWKD6/Alipay.png)
+ ![Alipay](https://app208.applinzi.com/QR/230/HTTPS%3a%7C%7CQR.ALIPAY.COM%7CTSX082709YGHVXYUQCWKD6/Alipay.png)
 
