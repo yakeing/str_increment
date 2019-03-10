@@ -9,30 +9,28 @@ This is string increment class that can be used extensively for uppercase or low
 
 ### Packagist
 
-[![Version](http://img.shields.io/packagist/v/yakeing/str_increment.svg)](https://packagist.org/packages/yakeing/str_increment)
+[![Version](http://img.shields.io/packagist/v/yakeing/str_increment.svg)](https://packagist.org/packages/yakeing/str_increment/releases)
 [![Downloads](http://img.shields.io/packagist/dt/yakeing/str_increment.svg)](https://packagist.org/packages/yakeing/str_increment)
 
 ### Github
 
 [![Downloads](https://img.shields.io/github/downloads/yakeing/str_increment/total.svg)](https://github.com/yakeing/str_increment)
-[![Size](https://img.shields.io/github/size/yakeing/str_increment/src/str_increment/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/src/str_increment)
-[![tag](https://img.shields.io/github/tag/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment)
-[![Language](https://img.shields.io/github/license/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment)
-[![Language](https://img.shields.io/github/languages/top/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/src/str_increment/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/blob/master/src/str_increment/StrIncrement.php)
+[![tag](https://img.shields.io/github/tag/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment/releases)
+[![Language](https://img.shields.io/github/license/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment/blob/master/LICENSE)
+[![Php](https://img.shields.io/github/languages/top/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment)
 
 ### Old Version
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-yellow.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
-[![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/blob/master/version1.0/StrIncrement.php)
 
 [![Version](https://img.shields.io/badge/Version-1.1.0-yellow.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
-[![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.1/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.1/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/blob/master/version1.1/StrIncrement.php)
 ` Singleton pattern `
 
 [![Version](https://img.shields.io/badge/Version-2.0.0-yellow.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
-[![Size](https://img.shields.io/github/size/yakeing/str_increment/version2.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/tree/master/version2.0)
-
-BY: [yakeing](http://weibo.com/yakeing)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/version2.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/blob/master/version2.0/StrIncrement.php)
 
 
 ### Installation
@@ -126,3 +124,9 @@ Your donation makes CODE better.
 
  ![Alipay](https://raw.githubusercontent.com/yakeing/Content/master/Donate/Alipay.png)
 
+Author
+---
+
+weibo: [yakeing](https://weibo.com/yakeing)
+
+twitter: [yakeing](https://twitter.com/yakeing)
