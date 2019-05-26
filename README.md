@@ -9,7 +9,7 @@ This is string increment class that can be used extensively for uppercase or low
 
 ### Packagist
 
-[![Version](http://img.shields.io/packagist/v/yakeing/str_increment.svg)](https://packagist.org/packages/yakeing/str_increment/releases)
+[![Version](http://img.shields.io/packagist/v/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment/releases)
 [![Downloads](http://img.shields.io/packagist/dt/yakeing/str_increment.svg)](https://packagist.org/packages/yakeing/str_increment)
 
 ### Github
