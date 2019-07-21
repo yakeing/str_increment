@@ -1,7 +1,8 @@
 <?php
 namespace str_incrementTest;
 
-use StrIncrement;
+use str_increment;
+use str_increment/StrIncrement;
 use PHPUnit\Framework\TestCase;
 
 class str_incrementTest extends TestCase{
