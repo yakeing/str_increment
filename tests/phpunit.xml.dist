@@ -2,12 +2,12 @@
 <phpunit bootstrap="./bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="str_increment Test Suite">
-            <directory>./str_incrementTest/</directory>
+            <directory suffix=".php">./</directory>
         </testsuite>
     </testsuites>
     <filter>
         <whitelist>
-            <directory suffix=".php">../src/str_increment</directory>
+            <directory suffix=".php">../src</directory>
             <exclude>
                 <directory>../vendor</directory>
             </exclude>
