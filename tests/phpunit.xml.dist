@@ -2,7 +2,7 @@
 <phpunit bootstrap="./bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="str_increment Test Suite">
-            <directory suffix=".php">./</directory>
+            <directory suffix=".php">./str_incrementTest</directory>
         </testsuite>
     </testsuites>
     <filter>
