@@ -12,8 +12,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "str_increment": "src/"
+        "psr-4": {
+            "str_increment\\": "src/"
         }
     },
     "require": {
