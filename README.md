@@ -20,11 +20,6 @@ This is string increment class that can be used extensively for uppercase or low
 [![Language](https://img.shields.io/github/license/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment/blob/master/LICENSE)
 [![Php](https://img.shields.io/github/languages/top/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment)
 
-### Old Version
-
-[![Version](https://img.shields.io/badge/Version-1.0.0-yellow.svg)](https://github.com/yakeing/str_increment/tree/master/version1.0)
-[![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.0/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/blob/master/version1.0/StrIncrement.php)
-
 [![Version](https://img.shields.io/badge/Version-1.1.0-yellow.svg)](https://github.com/yakeing/str_increment/tree/master/version1.1)
 [![Size](https://img.shields.io/github/size/yakeing/str_increment/version1.1/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/blob/master/version1.1/StrIncrement.php)
 ` Singleton pattern `
