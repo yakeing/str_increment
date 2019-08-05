@@ -31,9 +31,13 @@ class str_incrementTest extends TestCase{
     $str = 'zxc';
     $ret = StrIncrement::NewStr($str, 'lowercase');
     $this->assertEquals('zxd', $ret);
+    $this->assertTrue(false);
+    return array(1,2,3);
   }
-
-  public function testUppercase(){
+    /**
+    * @depends testLowercase
+    */
+  public function testUppercase(array $args){
     $str = 'ABZ';
     $ret = StrIncrement::NewStr($str, 'uppercase');
     $this->assertEquals('ACA', $ret);
