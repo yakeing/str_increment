@@ -15,7 +15,7 @@ This is string increment class that can be used extensively for uppercase or low
 ### Github
 
 [![Downloads](https://img.shields.io/github/downloads/yakeing/str_increment/total.svg)](https://github.com/yakeing/str_increment)
-[![Size](https://img.shields.io/github/size/yakeing/str_increment/src/str_increment/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/blob/master/src/str_increment/StrIncrement.php)
+[![Size](https://img.shields.io/github/size/yakeing/str_increment/src/StrIncrement.php.svg)](https://github.com/yakeing/str_increment/blob/master/src/str_increment/StrIncrement.php)
 [![tag](https://img.shields.io/github/tag/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment/releases)
 [![Language](https://img.shields.io/github/license/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment/blob/master/LICENSE)
 [![Php](https://img.shields.io/github/languages/top/yakeing/str_increment.svg)](https://github.com/yakeing/str_increment)
