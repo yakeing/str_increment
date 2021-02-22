@@ -12,11 +12,11 @@ This is string increment class that can be used extensively for uppercase or low
 
 ### Github badge
 
-[![Downloads](https://img.shields.io/github/downloads/yakeing/str_increment/total?color=dfb317&logo=github)](../../)
-[![Size](https://img.shields.io/github/size/yakeing/str_increment/src/StrIncrement.php?color=b36d41&logo=github)](src/StrIncrement.php)
-[![tag](https://img.shields.io/github/v/tag/yakeing/str_increment?color=28a745&logo=github)](../../releases)
-[![license](https://img.shields.io/github/license/yakeing/str_increment?color=FE7D37&logo=github)](LICENSE)
-[![languages](https://img.shields.io/badge/languages-php-007EC6?logo=github)](../../search?l=php)
+[![Downloads](https://badging.now.sh/github/downloads/yakeing/str_increment?logo=github)](../../)
+[![Size](https://badging.now.sh/github/size/yakeing/str_increment?logo=github)](src)
+[![tag](https://badging.now.sh/github/tag/yakeing/str_increment?logo=github)](../../releases)
+[![license](https://badging.now.sh/github/license/yakeing/str_increment?logo=github)](LICENSE)
+[![languages](https://badging.now.sh/github/language/yakeing/str_increment?logo=github)](../../search?l=php)
 
 ### Installation
 
@@ -94,7 +94,7 @@ str_increment init / Set up
 ---
 If you've got value from any of the content which I have created, then I would very much appreciate your support by payment donate.
 
-[![Sponsor](https://img.shields.io/badge/-Sponsor-EA4AAA?logo=google%20fit&logoColor=FFFFFF)](https://github.com/yakeing/Documentation/blob/master/Sponsor/README.md)
+[![Sponsor](https://badging.now.sh/static/label/Sponsor/EA4AAA?logo=heart)](https://github.com/yakeing/Documentation/blob/master/Sponsor/README.md)
 
 Author
 ---
