@@ -12,11 +12,11 @@ This is string increment class that can be used extensively for uppercase or low
 
 ### Github badge
 
-[![Downloads](https://badging.now.sh/github/downloads/yakeing/str_increment?logo=github)](../../)
-[![Size](https://badging.now.sh/github/size/yakeing/str_increment?logo=github)](src)
-[![tag](https://badging.now.sh/github/tag/yakeing/str_increment?logo=github)](../../releases)
-[![license](https://badging.now.sh/github/license/yakeing/str_increment?logo=github)](LICENSE)
-[![languages](https://badging.now.sh/github/language/yakeing/str_increment?logo=github)](../../search?l=php)
+[![Downloads](https://badging.now.sh/github/downloads/yakeing/str_increment?icon=github)](../../)
+[![Size](https://badging.now.sh/github/size/yakeing/str_increment?icon=github)](src)
+[![tag](https://badging.now.sh/github/tag/yakeing/str_increment?icon=github)](../../releases)
+[![license](https://badging.now.sh/static/label/license/555/MPL-2.0/fe7d37?icon=github)](LICENSE)
+[![languages](https://badging.now.sh/static/label/language/555/PHP/34abef?icon=github)](../../search?l=php)
 
 ### Installation
 
@@ -94,7 +94,7 @@ str_increment init / Set up
 ---
 If you've got value from any of the content which I have created, then I would very much appreciate your support by payment donate.
 
-[![Sponsor](https://badging.now.sh/static/label/Sponsor/EA4AAA?logo=heart)](https://github.com/yakeing/Documentation/blob/master/Sponsor/README.md)
+[![Sponsor](https://badging.now.sh/static/label/Sponsor/EA4AAA?icon=heart)](https://github.com/yakeing/Documentation/blob/master/Sponsor/README.md)
 
 Author
 ---
