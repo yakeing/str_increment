@@ -4,11 +4,11 @@ This is string increment class that can be used extensively for uppercase or low
 
 ### Travis CI badge
 
-[![Travis-ci](https://api.travis-ci.com/yakeing/str_increment.svg?branch=master)](https://travis-ci.com/yakeing/str_increment)
+[![Travis-ci](https://api.travis-ci.com/yakeing/str_increment.svg?branch=main)](https://travis-ci.com/yakeing/str_increment)
 
 ### codecov badge
 
-[![codecov](https://codecov.io/gh/yakeing/str_increment/branch/master/graph/badge.svg)](https://codecov.io/gh/yakeing/str_increment)
+[![codecov](https://codecov.io/gh/yakeing/str_increment/branch/main/graph/badge.svg)](https://codecov.io/gh/yakeing/str_increment)
 
 ### Github badge
 
